@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fontys OIM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a> </li>
+        <li><a href="#testimonials">Testimonials</a> </li>
+    </ul>
+</nav>
+<div class="header" id="home">
+    <div class="header-inside animation-target">
+        <h1>Fontys OIM</h1>
+    </div>
+</div>
+
+<div class="container" id="testimonials">
+    <div class="row">
+        <div class="col-1 offset-4">
+            <h2>Test fdsdajvb </h2>
+        </div>
+        <div class="col-12">
+            <h2>ger vnfcges dvcmdhvgmdcgmvrcmes</h2>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
