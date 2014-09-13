@@ -1,128 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>fontys OIM</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="animations.css">
+	<title>fontys OIM</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="animations.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#feed">#fontysmedia</a> </li>
-        <li><a href="#curriculum">Curriculum</a> </li>
-    </ul>
-</nav>
-<div class="header" id="home">
-    <div class="header-inside animation-target">
-        <h1>Fontys OIM</h1>
-    </div>
-</div>
 
-<div class="container" id="testimonials">
-    <div class="row">
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                     src="img/person-placeholder-male.jpg">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken als een ontwerper</p>
-            </div>
+	<div id="background">
 
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                    src="img/person-placeholder-male.jpg">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken als een ontwerper</p>
-            </div>
+	</div>
 
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                    src="img/person-placeholder-male.jpg">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken als een ontwerper</p>
-            </div>
-
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                    src="img/person-placeholder-male.jpg">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken als een ontwerper</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="interlude">
-
-</div>
-
-<div class="container" id="feed">
-    <div class="row">
-        <div class="col-6 offset-3 text-center">
-            <a class="twitter-timeline"  href="https://twitter.com/hashtag/fontysmedia" data-widget-id="510356443917074432">#fontysmedia Tweets</a>
-        </div>
-    </div>
-</div>
-
-<div class="interlude">
-
-</div>
-
-<div class="container" id="curriculum">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-center">Het Curriculum</h1>
-        </div>
-    </div>
-</div>
+	<nav>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+			<li><a href="#feed">#fontysmedia</a></li>
+			<li><a href="#curriculum">Curriculum</a></li>
+		</ul>
+	</nav>
 
 
-<div class="footer">
-    <p><a href="http://www.terarion.com">Ontworpen door David Diks, in opdracht van afdeling ICT en Media op Fontys Hogescholen</a></p>
-   </div>
-<script src="js/jquery.min.js"></script>
-<script>
-    $(function () {
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+	<div class="header" id="home">
+		<div class="header-inside animation-target">
+			<h1>Fontys OIM</h1>
+		</div>
+	</div>
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-</script>
+	<div class="container" id="testimonials">
+		<div class="row">
+			<div class="col-3">
+				<div class="thumb-container">
+					<img class="img-responsive img-rounded"
+					     src="img/person-placeholder-male.jpg">
+				</div>
+				<div class="text-center">
+					<h3>Thijs van Gerwen</h3>
+					<h5>Leraar ICT&amp;M</h5>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					   als
+					   een ontwerper</p>
+				</div>
+
+			</div>
+			<div class="col-3">
+				<div class="thumb-container">
+					<img class="img-responsive img-rounded"
+					     src="img/person-placeholder-male.jpg">
+				</div>
+				<div class="text-center">
+					<h3>Thijs van Gerwen</h3>
+					<h5>Leraar ICT&amp;M</h5>
+
+					<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					   als
+					   een ontwerper</p>
+				</div>
+
+			</div>
+			<div class="col-3">
+				<div class="thumb-container">
+					<img class="img-responsive img-rounded"
+					     src="img/person-placeholder-male.jpg">
+				</div>
+				<div class="text-center">
+					<h3>Thijs van Gerwen</h3>
+					<h5>Leraar ICT&amp;M</h5>
+
+					<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					   als
+					   een ontwerper</p>
+				</div>
+
+			</div>
+			<div class="col-3">
+				<div class="thumb-container">
+					<img class="img-responsive img-rounded"
+					     src="img/person-placeholder-male.jpg">
+				</div>
+				<div class="text-center">
+					<h3>Thijs van Gerwen</h3>
+					<h5>Leraar ICT&amp;M</h5>
+
+					<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					   als
+					   een ontwerper</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="interlude">
+
+	</div>
+
+	<div class="container" id="feed">
+		<div class="row">
+			<div class="col-6 offset-3 text-center">
+				<a class="twitter-timeline" href="https://twitter.com/hashtag/fontysmedia"
+				   data-widget-id="510356443917074432">#fontysmedia Tweets</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="interlude">
+
+	</div>
+
+	<div class="container" id="curriculum">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="text-center">Het Curriculum</h1>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<p><a href="http://www.terarion.com">Ontworpen door David Diks, in opdracht van afdeling ICT en Media op Fontys
+		                                     Hogescholen</a></p>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$('a[href*=#]:not([href=#])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
+
+	<script>
+		!function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+			if (!d.getElementById(id)) {
+				js = d.createElement(s);
+				js.id = id;
+				js.src = p + "://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}
+		}(document, "script", "twitter-wjs");
+	</script>
 
 </body>
 </html>

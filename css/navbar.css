@@ -9,14 +9,24 @@ nav {
   left: 0px;
   width: 100%;
   text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-nav > ul > li > a {
+nav ul > li {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+nav ul > li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-decoration: none;
   color: inherit;
   text-align: center;
 }
-nav > ul > li > a:active {
-  background-color: rgba(192, 192, 192, 0.7);
+nav ul > li a:hover {
+  background-color: #b6b6b6;
 }
 @media all and (max-width: 1169px) {
   nav {
