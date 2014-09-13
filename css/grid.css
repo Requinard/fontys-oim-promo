@@ -1,18 +1,23 @@
-.container {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  background-color: #fff;
-}
-@media all and (min-width: 1170px) {
-  .row {
+.row {
     display: table;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 1170px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+@media all and (min-width: 1170px) {
+    .container {
+        width: 1170px;
+    }
   .col-1 {
     width: 8.33333%;
   }
@@ -94,14 +99,9 @@
   }
 }
 @media all and (max-width: 1169px) {
-  .row {
-    display: table;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .container {
+        width: 100%;
+    }
   .col-1 {
     width: 100%;
   }
