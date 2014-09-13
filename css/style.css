@@ -256,7 +256,8 @@ nav ul > li a {
   color: inherit;
   text-align: center;
 }
-nav ul > li a:hover {
+nav ul > li a:hover,
+nav ul > li a:active {
   background-color: #4acf3d;
 }
 @media all and (max-width: 1169px) {
@@ -788,4 +789,20 @@ nav ul > li a:hover {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
+}
+#threed {
+  /* http://www.codelator.com/blog/2014/sep/create-some-cool-text-effects-using-css.html */
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: #000 1px 1px 0,
+  #000 2px 2px 0,
+  #000 3px 3px 0,
+  #000 4px 4px 0,
+  #000 5px 5px 0,
+  #000 6px 6px 0,
+  #000 7px 7px 0,
+  #000 8px 8px 0,
+  #000 9px 9px 0,
+  #000 10px 10px 0;
 }

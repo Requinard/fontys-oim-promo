@@ -25,7 +25,8 @@ nav ul > li a {
   color: inherit;
   text-align: center;
 }
-nav ul > li a:hover {
+nav ul > li a:hover,
+nav ul > li a:active {
   background-color: #4acf3d;
 }
 @media all and (max-width: 1169px) {
