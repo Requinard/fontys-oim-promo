@@ -806,3 +806,24 @@ nav ul > li a:active {
   #000 9px 9px 0,
   #000 10px 10px 0;
 }
+#logo-css {
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  transform: rotate(21deg);
+}
+#logo-css .logo-box {
+  width: 600px;
+  background-color: #ff0000;
+}
+#logo-css .logo-box .logo-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-top: 5px white solid;
+  border-bottom: 5px white solid;
+}
+#rotate-2 {
+  margin-top: 50px;
+  transform: rotate(180deg);
+}
