@@ -808,12 +808,20 @@ nav ul > li a:active {
 }
 #logo-css {
   display: inline-block;
-  width: 600px;
   text-align: center;
-  transform: rotate(21deg);
+}
+@media all and (min-width: 600px) {
+  #logo-css {
+    width: 600px;
+    transform: rotate(21deg);
+  }
+}
+@media all and (max-width: 599px) {
+  #logo-css {
+    width: 100%;
+  }
 }
 #logo-css .logo-box {
-  width: 600px;
   background-color: #dc0000;
 }
 #logo-css .logo-box .logo-line {

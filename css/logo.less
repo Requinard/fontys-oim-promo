@@ -3,14 +3,21 @@
 #logo-css {
   display: inline-block;
 
-  width: 600px;
+  @media all and (min-width: 600px){
+    width: 600px;
+    transform:rotate(21deg);
+  }
+
+  @media all and (max-width: 599px){
+    width: 100%;
+  }
 
   text-align: center;
 
-  transform:rotate(21deg);
-
   .logo-box {
-    width: 600px;
+
+
+
     background-color: @logo-background;
     .logo-line {
 
