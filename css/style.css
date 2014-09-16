@@ -65,12 +65,12 @@ h6 {
   width: 100%;
   background-color: #fff;
 }
-@media all and (min-width: 1170px) {
+@media all and (min-width: 960px) {
   .row {
     display: table;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 1170px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -154,7 +154,7 @@ h6 {
     padding-right: 5px;
   }
 }
-@media all and (max-width: 1169px) {
+@media all and (max-width: 960px - 1px) {
   .row {
     display: table;
     width: 100%;
@@ -234,7 +234,7 @@ nav {
   color: #fff;
   font-weight: bold;
   display: block;
-  background-color: #3dc230;
+  background-color: #cfcfcf;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -258,9 +258,9 @@ nav ul > li a {
 }
 nav ul > li a:hover,
 nav ul > li a:active {
-  background-color: #4acf3d;
+  background-color: #dcdcdc;
 }
-@media all and (max-width: 1169px) {
+@media all and (max-width: 959px) {
   nav {
     display: none;
   }
@@ -809,6 +809,7 @@ nav ul > li a:active {
 #logo-css {
   display: inline-block;
   text-align: center;
+  box-sizing: content-box;
 }
 @media all and (min-width: 600px) {
   #logo-css {
@@ -823,8 +824,10 @@ nav ul > li a:active {
 }
 #logo-css .logo-box {
   background-color: #cf0000;
+  box-sizing: content-box;
 }
 #logo-css .logo-box .logo-line {
+  box-sizing: content-box;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 20px;

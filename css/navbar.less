@@ -27,13 +27,14 @@ nav {
       text-align: center;
     }
 
-    a:hover, a:active {
+    a:hover, a:active
+    {
       background-color: lighten(@navbar-background, 5%);
     }
   }
 }
 
-@media all and (max-width: 1169px)
+@media all and (max-width: (@container-width - 1px))
 {
   nav {
     display: none;
