@@ -65,12 +65,12 @@ h6 {
   width: 100%;
   background-color: #fff;
 }
-@media all and (min-width: 960px) {
+@media all and (min-width: 1200px) {
   .row {
     display: table;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 960px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -154,7 +154,7 @@ h6 {
     padding-right: 5px;
   }
 }
-@media all and (max-width: 960px - 1px) {
+@media all and (max-width: 1200px - 1px) {
   .row {
     display: table;
     width: 100%;
@@ -260,7 +260,7 @@ nav ul > li a:hover,
 nav ul > li a:active {
   background-color: #dcdcdc;
 }
-@media all and (max-width: 959px) {
+@media all and (max-width: 1199px) {
   nav {
     display: none;
   }
