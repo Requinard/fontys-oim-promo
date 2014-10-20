@@ -43,9 +43,15 @@ h6 {
   margin: 0px;
 }
 .interlude {
-  height: 300px;
+  color: #f9f9f9;
   width: 100%;
   background-color: rgba(50, 50, 50, 0.9);
+  text-align: center;
+  padding: 100px 0px 110px 0px;
+}
+.interlude blockquote {
+  width: auto;
+  border-left: 1px solid gray;
 }
 .footer {
   padding-top: 50px;
