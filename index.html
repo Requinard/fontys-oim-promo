@@ -1,235 +1,371 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>fontys OIM</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/animations.min.css">
-    <link rel="shortcut icon" href="img/assets/favicon.ico">
-    <style>
-        .green-pixel {
-            position: fixed;
-            top: 70px;
-            right: 100px;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-            background-color: #0F0;
-            z-index: 99999;
-        }
-    </style>
+	<title>fontys OIM</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/assets/favicon.ico">
+	<style>
+		.green-pixel {
+			position: fixed;
+			top: 70px;
+			right: 100px;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			background-color: #0F0;
+			z-index: 99999;
+		}
+	</style>
 </head>
 <body>
 
 <audio id="audio">
-    <source src="music/td4w.mp3" type="audio/mpeg">
+	<source src="music/td4w.mp3" type="audio/mpeg">
 </audio>
 
 <div id="background"></div>
 
 <a onclick="TurnDown();" href="#" class="green-pixel">
-    test
+	test
 </a>
 
 <nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#feed">#fontysmedia</a></li>
-        <li><a href="#curriculum">Curriculum</a></li>
-        <li><a href="#after">Alumni</a></li>
-    </ul>
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#video">Video</a></li>
+		<li><a href="#curriculum">Curriculum</a></li>
+		<li><a href="#after">Apres Studie</a></li>
+		<li><a href="#testimonials">Testimonials</a></li>
+		<li><a href="#feed">#fontysmedia</a></li>
+		<li><a href="#info">Informatie</a> </li>
+	</ul>
 </nav>
 
 
 <div class="header animation-target" id="home">
-    <div class="header-inside">
-       <img src="img/assets/Logo-wit-72.gif" class="text-center" style="width: 400px; height: auto;">
-    </div>
+	<div class="header-inside">
+		<img src="img/assets/Logo-wit-72.gif" class="text-center" style="width: 400px; height: auto;"
+			 alt="Media en Design Logo">
+
+		<h3>Design the future</h3>
+	</div>
 </div>
 
-<div class="container" id="testimonials">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h2>Zie wat onze studenten en leraren van de opleiding vinden</h2>
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                     src="img/assets/person-placeholder-male.jpg" alt="een plaatje van een man">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
-                    als
-                    een ontwerper</p>
-            </div>
-
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                     src="img/assets/person-placeholder-male.jpg" alt="plaatje van een man">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
-                    als
-                    een ontwerper</p>
-            </div>
-
-        </div>
-        <div class="col-3">
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                     src="img/assets/person-placeholder-male.jpg" alt="nog een plaatje van een man">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
-                    als
-                    een ontwerper</p>
-            </div>
-
-        </div>
-        <div class="col-3">
-
-            <div class="thumb-container">
-                <img class="img-responsive img-rounded"
-                     src="img/assets/person-placeholder-male.jpg" alt="laatste plaatje">
-            </div>
-            <div class="text-center">
-                <h3>Thijs van Gerwen</h3>
-                <h5>Leraar ICT&amp;M</h5>
-
-                <p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
-                    als
-                    een ontwerper</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container" id="feed">
-    <div class="row">
-        <div class="col-6 offset-3 text-center">
-            <h3>Of wordt deel van de conversatie</h3>
-            <a class="twitter-timeline" href="https://twitter.com/hashtag/fontysmedia"
-               data-widget-id="510356443917074432">#fontysmedia Tweets</a>
-        </div>
-    </div>
+<div class="container" id="video">
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2>Introvideo</h2>
+			<br/>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/xkOzfm7iQIk"></iframe>
+		</div>
+	</div>
 </div>
 
 <div class="interlude">
 	<blockquote>
-		<h1>OiM heeft mij nieuw inzicht in websites gegeven</h1>
-		<footer>David Diks, Eerstejaars</footer>
+		<h1>Design is where science and art break even.</h1>
+
+		<p>Robin Mathew, web/graphic designer</p>
 	</blockquote>
 </div>
 
 <div class="container" id="curriculum">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-center">Het Curriculum</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-5 offset-1">
-            <h2>Jaar 1: Semester 1</h2>
+	<div class="row">
+		<div class="col-12">
+			<h1 class="text-center">Het Curriculum</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h2>Semester 1</h2>
 
-            <p>Het eerste semester staat in het teken van ontdekking. Naast Media en Design zul je ook les krijgen in de
-                andere richtingen.</p>
+			<p>Het eerste semester staat in het teken van ontdekking. Naast Media en Design zul je ook les krijgen in de
+				andere richtingen.</p>
 
-            <p>Naast Media en Design zul je dus ook leren over Business, Software Engineering en Technological
-                Engineering. Al deze vakken komen samen in de ProfTaak. Dit is een project waarin jij met een groep zal
-                samenwerken om
-                een werkend product te leveren.</p>
+			<p>Bij ICT zul je dus ook leren over Business, Software Engineering en Technological
+				Engineering. Al deze vakken komen samen in de ProfTaak. Dit is een project waarin jij met een groep zal
+				samenwerken om
+				een werkend product te leveren.</p>
 
-        </div>
-        <div class="col-5">
-            <h2>Jaar 1: Semester 2</h2>
+		</div>
+		<div class="col-6">
+			<h2>Semester 2</h2>
 
-            <p></p>
-        </div>
-    </div>
+			<p>In het tweede semester leer je wat het betekent om Media en Design te doen. Je focust je op het
+				ontwikkelen van brands, ontwerpen van reclamecampagnes, designen van posters en het bijhouden van
+				websites.</p>
+
+			<p>Je leert niet alleen hoe je media moet vormgeven, maar ook hoe je met media mensen kunt bereiken. Er
+				wordt een nadruk gelegd op je vaardigheden in het overbrengen van informatie, zij het in de vorm van
+				print, film, fotografie of web.</p>
+
+			<p>Je gaat dus een verhaal vertellen. Het doel is om de discussie te schapen, en te zorgen dat </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h2>Semester 3</h2>
+
+			<p>Het derde semester is vooral gericht op vizualizatie. Je leert hoe je met behulp van posters sneller
+				informatie over kan brengen, hoe je een slim filmpje maakt om je doel uit te leggen. Het visualizeren
+				van data staat voorop in het tweede semester.</p>
+
+			<p>Hierbij is de uitdaging natuurlijk het samenweven van een coherent narratief. Je kijkt niet meer naar de
+				aparte onderdelen als posters, filmpjes en reclame, maar naar het gehele beeld. De gebruiker moet gelijk
+				snappen jouw uitdagende puzzel in elkaar gezet moet worden.</p>
+		</div>
+		<div class="col-6">
+			<h2>Semester 4</h2>
+
+			<p>Het vierde (en laatste semester) ga je werken met een eindgebruiker in beeld.</p>
+
+			<p>Het opzetten van een complete mediacampagne zal vooraan staan. Hierbij worden alle media gebrukt die je
+				kunt. Bereik je doel door te adverteren over social media, filmpjes viral laten gaan en het maken van
+				inspirerende reclamespotjes en posters</p>
+
+			<p>Daarnaast ga je ook aan de slag met de eindgebruiker. Communicatie die bedoeld is voor duizenden zul
+				inspirerend maken voor ieder individu. De nadruk wordt gelegd op de gebruiker, en hoe je deze rondleidt.
+				Je zult vooral werken met het designen van interfaces voor zowel gewone als webapplicaties.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h2>Semester 5 &amp; 6</h2>
+
+			<p>Deze semesters zijn het begin van het einde. Langzaam begint het einde in zicht te komen.</p>
+
+			<p>Semester 5 staat in teken van de stage. Je gaat werkervaring opdoen bij een bedrijf in het veld. Je zal
+				aan de slag bij een van de meest toonaangevende bedrijven in Nederland, of zelfs daarbuiten. Fontys zal
+				je helpen om de meest optimale stageplek te vinden.</p>
+
+			<p>Semester 6 is gericht op de mobiele ervaring. Je zal hier werken aan de interfaces, maar ook de trends
+				die zich op dit platform afspelen. Je zult met na dit semester volledig voorbereid zijn op een leven als
+				professionele mediadesigner.</p>
+		</div>
+		<div class="col-6">
+			<h2>Semester 7 &amp; 8</h2>
+
+			<p>Het einde is hier. Semester 7 is het begin van je minor. Hiermee kun je specialiseren in een bepaald
+				gebied van Media en Design, waaronder 3D design, Augmented Reality, Virtual Realitie en meer. In je
+				minor ga je werken met de technologien die pas over een paar jaar de markt op zullen komen.</p>
+
+			<p>Semester 8 is de afstudeerstage. Je zult in je eentje werken aan een afstudeerproject. Alles wat je in de
+				afgelopen 3.5 jaar hebt geleerd komt samen in dit ene project. Je zult hierbij werken in bijna alle
+				gebieden om zo een werkend afstudeerproject op te leveren.</p>
+
+			<p>Na dit semester ben je klaar om als designer aan de slag te gaan. Veel succes!</p>
+		</div>
+	</div>
 </div>
 
 <div class="interlude">
 	<blockquote>
-		<h1>Ik denk dat Media en Design mij een andere kijk op het leven hebben gegeven</h1>
-		<p>David Diks, Eerstejaars</p>
+		<h1>Good design is a lot like clear thinking made visual.</h1>
+
+		<p>Edward Tufte, pionier in het veld van datavisualisatie</p>
 	</blockquote>
 </div>
 
 <div class="container" id="after">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-center">Na het Afstuderen</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-4 offset-1 text-center">
-            <h2>Mogelijke vakken</h2>
-        </div>
-        <div class="col-4 offset-2 text-center">
-            <h2>Onze Alumni</h2>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-12">
+			<h1 class="text-center">Na het Afstuderen</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h2>Uitleg</h2>
+
+			<p>Na het afstuderen ben je in het bezit van een Bachelors of Information Science en Design. Dit opent een
+				grote hoop deuren voor je.</p>
+
+			<p>Het designvak is breder als mensen denken. Je hebt een diverse skillset waarmee je bijna ieder probleem
+				aankan. Daarnaast kun je je snel aanpassen aan het topje van de zalm.</p>
+
+			<p>Je zult na deze opleiding ook goed om kunnen gaan met de verschillende tools in het veld, zoals
+				Photoshop, Premiere en Sublime. Daarnaast is het bijleren van een stuk equipment voor jou zeer
+				gemakkelijkl.</p>
+		</div>
+		<div class="col-4 offset-2">
+			<h2 class="text-center">De Vakken</h2>
+
+			<ul>
+				<li>Web Designer</li>
+				<li>User Interaction Designer</li>
+				<li>Visual Designer</li>
+				<li>Social Media Guru</li>
+				<li>Visual Artist</li>
+				<li>En nog veel meer...</li>
+			</ul>
+		</div>
+	</div>
 </div>
 
 
-<div class="footer">
-    <p><a href="http://www.terarion.com">Ontworpen door David Diks, in opdracht van afdeling ICT en Media op Fontys
-        Hogescholen</a></p>
+<div class="interlude">
+	<blockquote>
+		<h1>Everything is designed. Few things are designed well.</h1>
+		<footer>Brian Reed, videogame designer</footer>
+	</blockquote>
+</div>
 
-    <p>Deze site is geschreven met LESS, YUI-compressor en jQuery. HTML en CSS is gemaakt door mijzelf</p>
+<div class="container" id="testimonials">
+	<div class="row">
+		<div class="col-12 text-center">
+			<h2>Zie wat onze studenten en leraren van de opleiding vinden</h2>
+		</div>
+		<div class="col-3">
+			<div class="thumb-container">
+				<img class="img-responsive img-rounded"
+					 src="img/assets/person-placeholder-male.jpg" alt="een plaatje van een man">
+			</div>
+			<div class="text-center">
+				<h3>Thijs van Gerwen</h3>
+				<h5>Leraar ICT&amp;M</h5>
+
+				<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					als
+					een ontwerper</p>
+			</div>
+
+		</div>
+		<div class="col-3">
+			<div class="thumb-container">
+				<img class="img-responsive img-rounded"
+					 src="img/assets/person-placeholder-male.jpg" alt="plaatje van een man">
+			</div>
+			<div class="text-center">
+				<h3>Thijs van Gerwen</h3>
+				<h5>Leraar ICT&amp;M</h5>
+
+				<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					als
+					een ontwerper</p>
+			</div>
+
+		</div>
+		<div class="col-3">
+			<div class="thumb-container">
+				<img class="img-responsive img-rounded"
+					 src="img/assets/person-placeholder-male.jpg" alt="nog een plaatje van een man">
+			</div>
+			<div class="text-center">
+				<h3>Thijs van Gerwen</h3>
+				<h5>Leraar ICT&amp;M</h5>
+
+				<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					als
+					een ontwerper</p>
+			</div>
+
+		</div>
+		<div class="col-3">
+
+			<div class="thumb-container">
+				<img class="img-responsive img-rounded"
+					 src="img/assets/person-placeholder-male.jpg" alt="laatste plaatje">
+			</div>
+			<div class="text-center">
+				<h3>Thijs van Gerwen</h3>
+				<h5>Leraar ICT&amp;M</h5>
+
+				<p>Wij leren studenten hier niet hoe zij een website moeten maken, wij leren studenten hoe te denken
+					als
+					een ontwerper</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="feed">
+	<div class="row">
+		<div class="col-6 offset-3 text-center">
+			<h3>Stel vragen aan de Studenten</h3>
+			<a class="twitter-timeline" href="https://twitter.com/hashtag/fontysmedia"
+			   data-widget-id="510356443917074432">#fontysmedia Tweets</a>
+		</div>
+	</div>
+</div>
+
+<div class="interlude">
+	<blockquote>
+		<h1>Good design goes to heaven; bad design goes everywhere.</h1>
+
+		<p>Mieke Gerritzen, Graphic Designer</p>
+	</blockquote>
+</div>
+
+<div class="container" id="info">
+	<div class="row">
+		<div class="col-12">
+			<h2 class="text-center">Meer Informatie</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<p>Wij kunnen je geen fout aanwijzen. Media en Design een gewoon een grondige opleiding, en wij snappen het
+				best als je geinterreseerd bent.</p>
+
+			<p>Hier rechts hebben wij een paar links voor je samengesteld om nog meer informatie in te winnen.</p>
+		</div>
+
+		<div class="col-4 col-offset-2">
+			<ul>
+				<li><a href="http://fontys.nl">Fontys</a> </li>
+				<li><a href="http://fontys.nl/Studeren/Opleidingen/HBOICT-met-11-studieroutes-voltijd.htm">ICT op Fontys</a></li>
+				<li><a href="http://fontys.nl/hbo-ict-media-design/">Media Design op Fontys</a> </li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<p><a href="http://www.terarion.com">Ontworpen door David Diks, in opdracht van afdeling ICT en Media op Fontys
+		Hogescholen</a></p>
+
+	<p>Deze site is geschreven met LESS, YUI-compressor en jQuery. HTML en CSS is gemaakt door mijzelf</p>
 </div>
 
 <script src="js/jquery.min.js"></script>
 <script type="application/javascript">
-    function TurnDown(){
-        document.getElementById("audio").play();
-    }
+	function TurnDown() {
+		document.getElementById("audio").play();
+	}
 </script>
 <script>
-    $(function () {
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+	$(function () {
+		$('a[href*=#]:not([href=#])').click(function () {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-                else {
-                    return true;
-                }
-            }
-        });
-    });
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+				else {
+					return true;
+				}
+			}
+		});
+	});
 </script>
 
 <script>
-    !function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = p + "://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, "script", "twitter-wjs");
+	!function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+		if (!d.getElementById(id)) {
+			js = d.createElement(s);
+			js.id = id;
+			js.src = p + "://platform.twitter.com/widgets.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+	}(document, "script", "twitter-wjs");
 </script>
 
 </body>

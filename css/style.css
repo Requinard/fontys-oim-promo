@@ -66,16 +66,14 @@ h6 {
   text-decoration: underline;
 }
 .container {
-  padding: 0px;
   margin: 0px;
+  padding: 100px 0px;
   width: 100%;
   background-color: #fff;
 }
 @media all and (min-width: 1200px) {
   .row {
     display: table;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -164,8 +162,6 @@ h6 {
   .row {
     display: table;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -225,12 +221,9 @@ h6 {
 .col-10,
 .col-11,
 .col-12 {
-  padding-left: 5px;
-  padding-right: 5px;
+  display: table-row;
+  padding: 10px;
   background-color: #fff;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  white-space: pre-line;
   float: left;
   position: relative;
   min-height: 1px;
@@ -286,6 +279,12 @@ nav ul > li a:active {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.header-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  background-color: transparent;
+}
 .img-responsive {
   width: 100%;
   height: auto;
@@ -298,6 +297,13 @@ nav ul > li a:active {
 }
 .text-center {
   text-align: center;
+}
+ul,
+li {
+  list-style-type: square;
+}
+iframe {
+  border: 0px;
 }
 #threed {
   /* http://www.codelator.com/blog/2014/sep/create-some-cool-text-effects-using-css.html */
@@ -314,39 +320,4 @@ nav ul > li a:active {
   #000 8px 8px 0,
   #000 9px 9px 0,
   #000 10px 10px 0;
-}
-#logo-css {
-  display: inline-block;
-  text-align: center;
-  box-sizing: content-box;
-}
-@media all and (min-width: 600px) {
-  #logo-css {
-    width: 600px;
-    transform: rotate(21deg);
-  }
-}
-@media all and (max-width: 599px) {
-  #logo-css {
-    width: 100%;
-  }
-}
-#logo-css .logo-box {
-  background-color: #cf0000;
-  box-sizing: content-box;
-}
-#logo-css .logo-box .logo-line {
-  box-sizing: content-box;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 20px;
-  border-top: 5px white solid;
-  border-bottom: 5px white solid;
-}
-#rotate-1 {
-  margin-bottom: 30px;
-}
-#rotate-2 {
-  margin-top: 50px;
-  transform: rotate(180deg);
 }

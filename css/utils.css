@@ -4,3 +4,10 @@
 .text-center {
   text-align: center;
 }
+ul,
+li {
+  list-style-type: square;
+}
+iframe {
+  border: 0px;
+}

@@ -13,3 +13,9 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.header-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  background-color: transparent;
+}
