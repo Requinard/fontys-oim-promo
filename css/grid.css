@@ -10,6 +10,7 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
   }
   .col-1 {
     width: 8.33333%;
@@ -91,12 +92,13 @@
     padding-right: 5px;
   }
 }
-@media all and (max-width: 1200px - 1px) {
+@media all and (max-width: 1200px) {
   .row {
     display: table;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
   }
   .col-1 {
     width: 100%;
@@ -159,5 +161,5 @@
   background-color: #fff;
   float: left;
   position: relative;
-  min-height: 1px;
+  min-width: 1px;
 }
