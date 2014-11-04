@@ -308,6 +308,9 @@ li {
 iframe {
   border: 0px;
 }
+#feed {
+  padding: 0px 0px 100px 0px;
+}
 #threed {
   /* http://www.codelator.com/blog/2014/sep/create-some-cool-text-effects-using-css.html */
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
